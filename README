@@ -1,16 +1,9 @@
 VOIP-MS version 0.01
 ====================
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+This module provides a Perlish way to communicate with the SOAP API at voip.ms.
 
-A README file is required for CPAN modules since CPAN extracts the
-README file from a module distribution so that people browsing the
-archive can use it get an idea of the modules uses. It is usually a
-good idea to provide version information here so that people can
-decide whether fixes for the module are worth downloading.
+It presently implements only getBalance and getCDR.
 
 INSTALLATION
 
@@ -25,11 +18,12 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  blah blah blah
+  Moose
+  MooseX::Params::Validate;
+  SOAP::Lite;
+
 
 COPYRIGHT AND LICENCE
-
-Put the correct copyright and licence information here.
 
 Copyright (C) 2010 by Roy Hooper
 
