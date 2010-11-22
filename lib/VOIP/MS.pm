@@ -8,7 +8,6 @@ use Moose;
 use MooseX::Params::Validate;
 
 use SOAP::Lite;
-use List::MoreUtils qw(pairwise);
 use Carp qw(croak);
 use POSIX qw(strftime);
 
