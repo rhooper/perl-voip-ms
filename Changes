@@ -1,6 +1,7 @@
 Revision history for Perl extension VOIP::MS.
 
 0.01  Sun Nov 21 22:29:22 2010
-	- original version; created by h2xs 1.23 with options
-		-AXc -n VOIP::MS
+	- original version
 
+0.02  Thu Nov 25 17:02:22 2010
+	- switched to Module::Build

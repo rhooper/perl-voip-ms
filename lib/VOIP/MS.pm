@@ -2,7 +2,7 @@ package VOIP::MS;
 
 use 5.008009;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Moose;
 use MooseX::Params::Validate;
